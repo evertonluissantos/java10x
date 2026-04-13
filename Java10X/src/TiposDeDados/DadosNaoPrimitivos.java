@@ -6,6 +6,7 @@ public class DadosNaoPrimitivos {
 
         /*
          *  Dados nao primitivos: String, Array, Class, enum.
+         * Objetivo: Criar um ninja, e atribuir metodos a ele.
          * */
 
         String nome = "Naruto Uzumaki";
@@ -14,7 +15,7 @@ public class DadosNaoPrimitivos {
         System.out.println("Esse texto está em CAPSLOCK: " + nomeUpperCase);
 
         String aldeia = "ALDEIA DA FOLHA";
-        String nomeToLoweCase = aldeia.toLowerCase(); // ToLowerCase vai colocar tudo em minusculo
-        System.out.println(nomeToLoweCase);
+        String nomeToLowerCase = aldeia.toLowerCase(); // ToLowerCase vai colocar tudo em minusculo
+        System.out.println(nomeToLowerCase);
     }
 }
