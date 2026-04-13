@@ -5,77 +5,80 @@ public class Desafio1 {
 
         // ==================== NINJA 1 ====================
         String nomeNinja1 = "Naruto Uzumaki";
-        int idade1 = 16;
-        String missao1 = "Resgate do Kazekage";
-        String statusDaMissao1 = "Concluido"; // Status inicial
+        int idadeNinja1 = 17;
+        String missaoNinja1 = "Resgatar Gaara";
         char nivelDaMissao1 = 'S';
+        String statusMissaoNinja1 = "";
 
-        // LÓGICA: Verificar se o ninja pode fazer a missão baseado na idade
-        if(idade1 < 15) {
-            // Se tem menos de 15 anos, só pode fazer missões C ou D
-            if (nivelDaMissao1 == 'C' || nivelDaMissao1 == 'D') {
-                statusDaMissao1 = "Concluída";
+        //Verificar nivel da missao e idade do ninja
+
+        if(idadeNinja1 < 15) {
+            if (nivelDaMissao1 == 'C' || nivelDaMissao1 == 'D'){
+                statusMissaoNinja1 = "Concluida";
             } else {
-                // Missões S, A ou B são muito difíceis para menores de 15
-                statusDaMissao1 = "Não concluída - idade insuficiente";
+                statusMissaoNinja1 = "Não concluida";
             }
         } else {
-            // Se tem 15 anos ou mais, pode fazer qualquer missão
-            statusDaMissao1 = "Concluída";
+            statusMissaoNinja1 = "Concluída";
         }
 
         System.out.println("Nome do ninja: " + nomeNinja1);
-        System.out.println("Idade do ninja: " + idade1);
-        System.out.println("Missão: " + missao1);
-        System.out.println("Status da Missão: " + statusDaMissao1);
-        System.out.println("Nível da Missão: " + nivelDaMissao1);
-        System.out.println("_______________________________");
+        System.out.println("Idade do ninja: " + idadeNinja1);
+        System.out.println("Missão: " + missaoNinja1);
+        System.out.println("Rank: " + nivelDaMissao1);
+        System.out.println("Status da missão: " + statusMissaoNinja1);
+
+        System.out.println("_________________________________________");
 
         // ==================== NINJA 2 ====================
-        String nomeNinja2 = "Sakura Haruno";
-        int idade2 = 16;
-        String missao2 = "Escoltar o Construtor de Pontes";
-        String statusDaMissao2 = "Concluido";
+        String nomeNinja2 = "Sasuke Uchiha";
+        int idadeNinja2 = 17;
+        String missaoNinja2 = "Derrotar Itachi";
         char nivelDaMissao2 = 'S';
+        String statusMissaoNinja2 = "";
 
-        if(idade2 < 15) {
+        if (idadeNinja2 < 15) {
             if (nivelDaMissao2 == 'C' || nivelDaMissao2 == 'D') {
-                statusDaMissao2 = "Concluída";
+                statusMissaoNinja2 = "Concluída";
             } else {
-                statusDaMissao2 = "Não concluída - idade insuficiente";
+                statusMissaoNinja2 = "Não concluída";
             }
         } else {
-            statusDaMissao2 = "Concluída";
+            statusMissaoNinja2 = "Concluída";
         }
 
         System.out.println("Nome do ninja: " + nomeNinja2);
-        System.out.println("Idade do ninja: " + idade2);
-        System.out.println("Missão: " + missao2);
-        System.out.println("Status da Missão: " + statusDaMissao2);
-        System.out.println("Nível da Missão: " + nivelDaMissao2);
-        System.out.println("_______________________________");
+        System.out.println("Idade do ninja: " + idadeNinja2);
+        System.out.println("Missão: " + missaoNinja2);
+        System.out.println("Rank: " + nivelDaMissao2);
+        System.out.println("Status da missão: " + statusMissaoNinja2);
 
-        // ==================== NINJA 3 ====================
-        String nomeNinja3 = "Sasuke Uchiha";
-        int idade3 = 16;
-        String missao3 = "Reconhecimento da aldeia";
-        String statusDaMissao3 = "Em andamento";
+        System.out.println("_________________________________________");
+
+// ==================== NINJA 3 ====================
+        String nomeNinja3 = "Sakura Haruno";
+        int idadeNinja3 = 17;
+        String missaoNinja3 = "Resgatar Gaara";
         char nivelDaMissao3 = 'S';
+        String statusMissaoNinja3 = "";
 
-        if(idade3 < 15) {
+        if (idadeNinja3 < 15) {
             if (nivelDaMissao3 == 'C' || nivelDaMissao3 == 'D') {
-                statusDaMissao3 = "Concluída";
+                statusMissaoNinja3 = "Concluída";
             } else {
-                statusDaMissao3 = "Não concluída - idade insuficiente";
+                statusMissaoNinja3 = "Não concluída";
             }
         } else {
-            statusDaMissao3 = "Concluída";
+            statusMissaoNinja3 = "Concluída";
         }
 
         System.out.println("Nome do ninja: " + nomeNinja3);
-        System.out.println("Idade do ninja: " + idade3);
-        System.out.println("Missão: " + missao3);
-        System.out.println("Status da Missão: " + statusDaMissao3);
-        System.out.println("Nível da Missão: " + nivelDaMissao3);
+        System.out.println("Idade do ninja: " + idadeNinja3);
+        System.out.println("Missão: " + missaoNinja3);
+        System.out.println("Rank: " + nivelDaMissao3);
+        System.out.println("Status da missão: " + statusMissaoNinja3);
+
+        System.out.println("_________________________________________");
+
     }
 }
