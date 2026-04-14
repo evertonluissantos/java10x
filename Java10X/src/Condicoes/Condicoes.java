@@ -20,12 +20,14 @@ public class Condicoes {
 
         //se (condicao) {faça isso}
         if(numeroDeMissoes == 10 && idade > 15) {
-            System.out.println("Rank: Chunnin");
+            rank = "Chunnin";
         } else if (numeroDeMissoes >= 20) {
-            System.out.println("Rank: Jounin");
+            rank = "Jounin";
         } else {
-            System.out.println("Rank: Gennin");
+            rank = "Gennin";
         }
+
+        System.out.println("Rank: " + rank);
 
     }
 }
