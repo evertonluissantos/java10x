@@ -26,7 +26,7 @@ public class EstudoSwitchCases {
         // Reacao ao escolher um personagem
         switch (escolhaDoUsuario) {
             case 1:
-                System.out.println("O usuario escolheu o Naruto uzumaki");
+                System.out.println("O usuario escolheu o Naruto Uzumaki");
                 break;
             case 2:
                 System.out.println("O usuario escolheu o Sasuke Uchiha");
